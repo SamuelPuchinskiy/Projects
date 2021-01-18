@@ -1,0 +1,16 @@
+create database if not exists project;
+use project;
+
+
+DROP TABLE IF EXISTS user;
+CREATE TABLE user (
+    userID int NOT NULL AUTO_INCREMENT,
+    firstName varchar(50),
+	lastName varchar(50),
+	age int, 
+	email varchar(50), 
+	userName varchar(50),
+	passWord varchar(50),
+	cellPhone varchar(50),
+    PRIMARY KEY(userID)
+);

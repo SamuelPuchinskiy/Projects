@@ -1,0 +1,126 @@
+body {
+    font-family: Comic Sans MS, Lato, Helevtica, sans-serif;
+    background-color: lightgrey;
+}
+
+footer {
+    font-family: Lato, Helevtica, sans-serif;
+    font-size: 2%;
+}
+
+.normal {
+    font-size:150%;
+    background-color: lightsteelblue;
+    padding: 1%;
+    margin: 3%;
+    border-radius: 25px;
+}
+
+.results {
+    font-size:150%;
+    background-color: lightsteelblue;
+    padding: 2%;
+    margin: 3%;
+    border-radius: 25px;
+}
+
+i {
+    color: navy;
+}
+
+nav {
+    background-color: lightsteelblue;
+}
+
+.border {
+    border-style: solid;
+}
+
+.image {
+    height: auto;
+    width: 90%;
+}
+
+.formInput {
+    font-family: Comic Sans MS;
+    font-size:150%;
+    margin:1%;
+    padding:1%;
+    background: #f9f9f9;
+}
+
+footer {
+    font-size:80%;
+    padding: 1%;
+    margin: 1%;
+}
+
+.home-text {
+    font-size:150%;
+    margin:1%;
+    padding:1%;
+    background: #f9f9f9;
+}
+
+.responsive {
+    margin:1%;
+    padding:1%;
+}
+
+#birthmonth {
+    font-family: Comic Sans MS;
+    font-size:150%;
+    margin:1%;
+    padding:1%;
+    background: #f9f9f9;
+}
+
+#birthyear {
+    font-family: Comic Sans MS;
+    font-size:150%;
+    margin:1%;
+    padding:1%;
+    background: #f9f9f9;
+}
+
+#birthday {
+    font-family: Comic Sans MS;
+    font-size:150%;
+    margin:1%;
+    padding:1%;
+    background: #f9f9f9;
+}
+
+#name {
+    font-family: Comic Sans MS;
+    font-size:150%;
+    margin:1%;
+    padding:1%;
+    background: #f9f9f9;
+}
+
+.validationError {
+    color: #ff0000;
+}
+
+#table {
+    font-family: Courier New;
+    margin:1%;
+    padding:1%;
+}
+
+.tables {
+    font-size:120%;
+    margin:2%;
+    padding:1%;
+    background: #f9f9f9;
+}
+
+.tabHead {
+    font-family: Lucida Console;
+    font-size: 150%;
+}
+.removeBlue {
+    text-decoration: none;
+    color: inherit;
+}

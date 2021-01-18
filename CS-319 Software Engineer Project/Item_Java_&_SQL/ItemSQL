@@ -1,0 +1,12 @@
+create database if not exists demo;
+use demo;
+
+
+DROP TABLE IF EXISTS item;
+CREATE TABLE item (
+    itemid int NOT NULL AUTO_INCREMENT,
+    ItemName varchar(30),
+	Price int,
+	Description varchar(50),
+    PRIMARY KEY(itemid)
+);

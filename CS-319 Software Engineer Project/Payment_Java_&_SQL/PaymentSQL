@@ -1,0 +1,13 @@
+create database if not exists demo;
+use demo;
+
+
+DROP TABLE IF EXISTS payment;
+CREATE TABLE payment (
+    Paymentid int NOT NULL AUTO_INCREMENT,
+    BankName varchar(30),
+	CardNum int,
+	CVCCode int,
+	expirationDate int,
+    PRIMARY KEY(Paymentid)
+);

@@ -1,0 +1,120 @@
+/* css for mytemplate.html */
+body 
+	{
+	  width:975px; 
+	  text-align:justify;
+	  padding: 10px;
+	  font-family:garamond;
+	  font-size:20px;
+	  margin: auto;
+	  background-color:#FEFEFE;
+	}
+
+#banner
+	{
+		width:975px;
+		
+		margin-top:20px;
+		margin-bottom:20px;
+		padding:10px;
+		
+		text-align:center;
+
+		background-color:#9ED2D6;		
+		font-size:25px;
+	}
+.enlargeText
+	{
+		font-size:30px;
+	}
+
+	
+#mainnav
+	{
+		width:145px;
+		height:550px;
+		
+		padding:10px;
+		margin-bottom:20px;
+		
+		float: left;
+		
+		text-align:left;
+		background-color:#9ED2D6;	
+	
+	}
+.topNav
+	{
+		list-style-type: none;
+		margin:0px;
+		padding-left:10px;
+		padding-bottom:30px;
+
+	}
+
+#content
+	{
+		width:810px;
+		height:550px;
+		
+		padding:10px;
+		margin-left:20px;
+		margin-bottom:20px;
+		
+		float:left;
+		background-color:#9ED2D6;	
+	}
+.navPadLeft
+	{
+		padding-left:680px;
+	}
+	
+#footer
+	{
+		width:975px;
+		height:100px;
+			
+		margin-top:20px;
+		
+		text-align:center;
+		background-color:#9ED2D6;	
+	}	
+.horNav
+	{
+		padding:25px;
+		list-style-type: none;
+		display: inline;
+	}
+	
+
+#imgtmp
+	{
+		float:left; 
+		margin: 10px;
+	}
+.imgSize
+	{
+		
+	}
+
+a:link
+	{
+		color:#FBB4BA;	
+		text-decoration: none;
+	}
+a:visited
+	{
+		color:#4E5656;
+		text-decoration: none;
+	}
+a:hover
+	{
+		color:#FBB4BA;
+		text-decoration: none;
+	}
+a:active 
+	{
+	  color:#FF55FF;
+	  text-decoration: none;
+	}
+	

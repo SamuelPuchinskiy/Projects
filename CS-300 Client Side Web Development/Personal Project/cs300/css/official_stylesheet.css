@@ -1,0 +1,216 @@
+/* css for mytemplate.html */
+body 
+	{
+	  width:975px; 
+	  text-align:justify;
+	  padding: 10px;
+	  font-family:"garamond";
+	  font-size:22px;
+	  margin: auto;
+	  background-color:#FEFEFE;
+	}
+	
+#banner
+	{
+		
+		width:975px;
+		margin-top:20px;
+		margin-bottom:20px;
+		padding:20px;
+		
+	
+
+		background-color:#9ED2D6;	
+		text-align:center;		
+		font-size:40px;
+	}
+	
+td
+	{
+		padding-right:30px;
+		padding-left:30px;
+	}
+	
+.enlargeText
+	{
+		font-size:35px;
+	}
+	
+.smallText
+	{
+		font-size:20px;
+	}
+.mainNavDiv
+	{
+		width:150px;
+		height:550px;
+		font-family:"Comic Sans MS";
+		padding:15px;
+		padding-bottom:50px;
+		
+		margin-right:60px;
+		
+		
+		float:left;
+		text-align:left;
+		background-color:#9ED2D6;
+	}
+	
+	
+.maincontent
+	{	
+
+		width:705px;
+		height:550px;
+		
+		padding:15px;
+		padding-bottom:50px;
+		
+		
+		float:left;
+		background-color:#9ED2D6;	
+		
+	}
+	
+.topNav
+	{
+		list-style-type: none;
+		margin:0px;
+		padding-left:10px;
+	}
+
+.content
+	{		
+		padding:15px;
+	
+		margin-bottom:20px;
+			
+		background-color:#9ED2D6;
+		clear:both;
+		
+	}
+	
+
+	
+.both
+	{
+		float:left;
+		margin-bottom:20px;
+	}
+
+.left
+	{
+
+		width:525px;
+		margin-right:60px;
+		float:left;
+		height:360px;
+		padding:15px;
+		
+		background-color:#9ED2D6;
+		
+
+	}
+
+ul li
+	{
+		padding-bottom:20px;
+	}
+dd
+	{
+		padding-bottom:20px;
+	}
+
+
+.right
+	{	
+		width:315px;
+		height:360px;
+		float:left;
+		padding:15px;
+		padding-left:30px;
+			
+		background-color:#9ED2D6;
+		
+	}
+
+	
+ul li
+	{
+		padding-left:10px;
+		list-style-type: square;
+	
+	}
+	
+ol li
+	{
+		padding-left:10px;
+		list-style-type: upper-roman;
+	
+	}
+	
+#footer
+	{
+		width:975px;
+		text-align:center;
+		
+		padding:6px;
+		margin-top:20px;
+		
+		
+		background-color:#9ED2D6;	
+	}	
+.footerRow
+	{
+		padding:5px;
+	}
+	
+.horNav
+	{
+		padding:10px;
+		list-style-type: none;
+		display: inline;
+
+	}
+	
+#imgtmp
+	{
+		float:left; 
+		margin:10px;
+	}
+.texttmp
+	{
+		padding-top:10px;
+		float:left; 
+		margin: 10px;
+	}
+.centerH
+	{
+		text-align:center;
+		padding:10px;
+	}
+p 
+	{
+		padding-top:10px;
+	}
+	
+a:link
+	{
+		color:#4E5656;	
+		text-decoration: none;
+	}
+a:visited
+	{
+		color:#ff5733 ;
+		text-decoration: none;
+	}
+a:hover
+	{
+		color:#FBB4BA;
+		text-decoration: none;
+	}
+a:active 
+	{
+	  color:#FF55FF;
+	  text-decoration: none;
+	}

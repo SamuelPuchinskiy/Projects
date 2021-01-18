@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://wwww.thymeleaf.org">
+
+<head th:insert="fragments/base :: headContent">
+    <title class="pageTitle">Database</title>
+</head>
+
+<body>
+    <div th:replace="fragments/base :: navigation"></div>
+
+    <div class="container mt-5">
+        <div th:replace="fragments/base :: image"> </div>
+
+        <div class="normal">
+            <div class="d-flex justify-content-center mb-1 mt-3">
+                <h1>Database Admin</h1>
+            </div>
+            <div class="d-flex justify-content-center mb-1 mt-3">
+                <!--TABLE DATA-->
+                <div class="p-2 border" >
+                    <h2>Month Table</h2>
+                    <div th:each="bm : ${months}">
+                        <p class="border">Month ID: <span th:text="${bm.monthID}">Month ID</span> ~ Month Name: <span th:text="${bm.name}">Month Name</span> </p>
+                    </div>
+                </div>
+                <div class="p-2 border">
+                    <h2>Day Table</h2>
+                    <div th:each="d : ${days}">
+                        <p class="border">Day ID: <span th:text="${d.dayID}">Day ID</span> ~ Day Name: <span th:text="${d.name}">Day Name</span> </p>
+                    </div>
+                </div>
+                <div class="p-2 border">
+                    <h2>Year Table</h2>
+                    <div th:each="yr : ${year}">
+                        <p class="border">Year ID: <span th:text="${yr.yearID}">Year ID</span> ~ Year Name: <span th:text="${yr.name}">Year Name</span> </p>
+                    </div>
+                </div>
+                <div class="p-2 border">
+                    <h2>User Data Table</h2>
+                    <div th:each="user : ${bday}">
+                        <p class="border">
+                            User Birthday ID: <span th:text="${user.id}">User ID</span>
+                            ~ User Birth Year: <span th:text="${user.birthYearUser}">Year</span>
+                            ~ User Birth Month: <span th:text="${user.birthMonthUser}">Month</span>
+                            ~ User Birth Day: <span th:text="${user.birthDayUser}">Day</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div th:replace="fragments/base :: footer"></div>
+    </div>
+
+    <!-- BootStrap -->
+    <th:block th:insert="fragments/base :: scripts"></th:block>
+</body>
+</html>

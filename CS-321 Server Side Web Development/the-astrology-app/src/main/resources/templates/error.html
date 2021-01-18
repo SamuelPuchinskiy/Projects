@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://wwww.thymeleaf.org">
+
+<head th:insert="fragments/base :: headContent">
+    <title class="pageTitle">Home</title>
+</head>
+
+<body>
+
+    <div th:replace="fragments/base :: navigation"></div>
+
+    <div class="container mt-5">
+        <div th:replace="fragments/base :: image"> </div>
+
+        <div class="normal d-flex justify-content-center mb-1 mt-3">
+            <div>
+                <h2 class="validationError">Error Code: 2020</h2>
+                <p>An error has occurred. Please Try Again.</p>
+            </div>
+        </div>
+
+        <div th:replace="fragments/base :: footer"></div>
+    </div>
+
+    <!-- BootStrap -->
+    <th:block th:insert="fragments/base :: scripts"></th:block>
+</body>
+</html>

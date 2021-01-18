@@ -1,0 +1,11 @@
+CREATE DATABASE IF NOT EXISTS login;
+USE login;
+
+DROP TABLE IF EXISTS log;
+CREATE TABLE log 
+(
+    user_id int NOT NULL AUTO_INCREMENT,
+    username VARCHAR(20),
+    password VARCHAR(30),
+    PRIMARY KEY(user_id)
+);

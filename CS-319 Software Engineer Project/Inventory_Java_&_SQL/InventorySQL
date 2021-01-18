@@ -1,0 +1,11 @@
+create database if not exists demo;
+use demo;
+
+
+DROP TABLE IF EXISTS inventory;
+CREATE TABLE inventory (
+    Inventoryid int NOT NULL AUTO_INCREMENT,
+    Item varchar(30),
+	Quantity int,
+	PRIMARY KEY(Inventoryid)
+);
